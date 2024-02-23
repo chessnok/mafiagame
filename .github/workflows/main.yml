@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Flake8
         run: |
-          flake8 .
+          flake8 --config setup.cfg .
 
       - name: Run Black
         run: |
