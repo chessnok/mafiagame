@@ -1,6 +1,5 @@
-from flask import Flask
-
 from config import Config
+from flask import Flask
 from models import db
 
 
